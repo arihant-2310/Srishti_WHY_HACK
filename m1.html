@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1afa5b10760c4029a7e33e303e522d79 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_1afa5b10760c4029a7e33e303e522d79" ></div>
+        
+</body>
+<script>    
+    
+            var map_1afa5b10760c4029a7e33e303e522d79 = L.map(
+                "map_1afa5b10760c4029a7e33e303e522d79",
+                {
+                    center: [10.0274, 76.3078],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bd1cbc6307154bac84bd6e56253c59e7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1afa5b10760c4029a7e33e303e522d79);
+        
+    
+            var marker_d3570af1087244e09039fbd1da7a2497 = L.marker(
+                [10.027307, 76.307861],
+                {}
+            ).addTo(map_1afa5b10760c4029a7e33e303e522d79);
+        
+    
+        var popup_6f36c0610e0341a3a5cf4fec1d445224 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c2fee6f0a294c6e99243d7f3ec4ffe1 = $(`<div id="html_1c2fee6f0a294c6e99243d7f3ec4ffe1" style="width: 100.0%; height: 100.0%;"><strong>Ladies Restroom</strong></div>`)[0];
+            popup_6f36c0610e0341a3a5cf4fec1d445224.setContent(html_1c2fee6f0a294c6e99243d7f3ec4ffe1);
+        
+
+        marker_d3570af1087244e09039fbd1da7a2497.bindPopup(popup_6f36c0610e0341a3a5cf4fec1d445224)
+        ;
+
+        
+    
+    
+            marker_d3570af1087244e09039fbd1da7a2497.bindTooltip(
+                `<div>
+                     Click For More Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5c4e3e564a7444ba0f0b2fa88d19051 = L.marker(
+                [10.026307, 76.307853],
+                {}
+            ).addTo(map_1afa5b10760c4029a7e33e303e522d79);
+        
+    
+        var popup_4bf80f05554447dd9bf6fbd041f8dd1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f557531ed0df4798b1f38cb172bfcd78 = $(`<div id="html_f557531ed0df4798b1f38cb172bfcd78" style="width: 100.0%; height: 100.0%;"><strong>Ladies Restroom</strong> </div>`)[0];
+            popup_4bf80f05554447dd9bf6fbd041f8dd1c.setContent(html_f557531ed0df4798b1f38cb172bfcd78);
+        
+
+        marker_c5c4e3e564a7444ba0f0b2fa88d19051.bindPopup(popup_4bf80f05554447dd9bf6fbd041f8dd1c)
+        ;
+
+        
+    
+    
+            marker_c5c4e3e564a7444ba0f0b2fa88d19051.bindTooltip(
+                `<div>
+                     Click For More Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24b31e7f3fa14e0c850702d7a7d9183d = L.marker(
+                [10.8084796, 76.3549],
+                {}
+            ).addTo(map_1afa5b10760c4029a7e33e303e522d79);
+        
+    
+        var popup_b5f070cdb0904b74be95d371707cb7e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11507a7fb87f43f58c33c683275bdf09 = $(`<div id="html_11507a7fb87f43f58c33c683275bdf09" style="width: 100.0%; height: 100.0%;"><strong>Ladies Restroom</strong></div>`)[0];
+            popup_b5f070cdb0904b74be95d371707cb7e7.setContent(html_11507a7fb87f43f58c33c683275bdf09);
+        
+
+        marker_24b31e7f3fa14e0c850702d7a7d9183d.bindPopup(popup_b5f070cdb0904b74be95d371707cb7e7)
+        ;
+
+        
+    
+    
+            marker_24b31e7f3fa14e0c850702d7a7d9183d.bindTooltip(
+                `<div>
+                     Click For More Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_05969154710945cc84b6e7cac50407c3 = L.marker(
+                [10.9084796, 76.30339],
+                {}
+            ).addTo(map_1afa5b10760c4029a7e33e303e522d79);
+        
+    
+        var popup_9746341f0c754fd7a307be57c84d685e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e81e0b44b5f942d2bf00f07175d1b48e = $(`<div id="html_e81e0b44b5f942d2bf00f07175d1b48e" style="width: 100.0%; height: 100.0%;"><strong>Ladies Restroom</strong></div>`)[0];
+            popup_9746341f0c754fd7a307be57c84d685e.setContent(html_e81e0b44b5f942d2bf00f07175d1b48e);
+        
+
+        marker_05969154710945cc84b6e7cac50407c3.bindPopup(popup_9746341f0c754fd7a307be57c84d685e)
+        ;
+
+        
+    
+    
+            marker_05969154710945cc84b6e7cac50407c3.bindTooltip(
+                `<div>
+                     Click For More Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74a9cca9601b43e69b76cf9c132035cf = L.marker(
+                [9.999999, 75.33245],
+                {}
+            ).addTo(map_1afa5b10760c4029a7e33e303e522d79);
+        
+    
+        var popup_c61eb5ce5de140fe8ad7febc894b4dce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b67366b896542d6bc81f3cf991da1e1 = $(`<div id="html_7b67366b896542d6bc81f3cf991da1e1" style="width: 100.0%; height: 100.0%;"><strong>Location Five</strong></div>`)[0];
+            popup_c61eb5ce5de140fe8ad7febc894b4dce.setContent(html_7b67366b896542d6bc81f3cf991da1e1);
+        
+
+        marker_74a9cca9601b43e69b76cf9c132035cf.bindPopup(popup_c61eb5ce5de140fe8ad7febc894b4dce)
+        ;
+
+        
+    
+    
+            marker_74a9cca9601b43e69b76cf9c132035cf.bindTooltip(
+                `<div>
+                     Click For More Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2fde04c262ed4ac6977c2fa00f016878 = L.circleMarker(
+                [10.0274, 76.3078],
+                {"bubblingMouseEvents": true, "color": "#428bca", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#428bca", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_1afa5b10760c4029a7e33e303e522d79);
+        
+    
+        var popup_ab36f0fdc5684c3aba1c7b6ae6ad0f0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e457d63d2d9c43169a220603b064bf06 = $(`<div id="html_e457d63d2d9c43169a220603b064bf06" style="width: 100.0%; height: 100.0%;">Safest Public Restrooms</div>`)[0];
+            popup_ab36f0fdc5684c3aba1c7b6ae6ad0f0d.setContent(html_e457d63d2d9c43169a220603b064bf06);
+        
+
+        circle_marker_2fde04c262ed4ac6977c2fa00f016878.bindPopup(popup_ab36f0fdc5684c3aba1c7b6ae6ad0f0d)
+        ;
+
+        
+    
+</script>
